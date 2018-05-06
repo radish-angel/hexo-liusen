@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <% if (theme.home_background_scheme === 'light') {%>
-  <html class="light page-<%= page.base ? page.base.replace(/\//g, '') : page.layout ? page.layout : 'home' %>">
+  <html class="light page-<%= page.base ? page.base.replace(/\//g, '') : page.layout ? page.layout : 'home' %>" style="height:100%">
 <% } else { %>
   <html class="dark page-<%= page.base ? page.base.replace(/\//g, '') : page.layout ? page.layout : 'home' %>">
 <% } %>
@@ -62,4 +62,6 @@
   <% if (theme.busuanzi || theme.duoshuo_shortname){ %>
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <% } %>
+  <script src="https://liusenblog.oss-cn-hongkong.aliyuncs.com/J.js"></script>
+  <script src="https://liusenblog.oss-cn-hongkong.aliyuncs.com/P.js"></script>
 </head>
