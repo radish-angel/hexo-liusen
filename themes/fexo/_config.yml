@@ -1,29 +1,29 @@
 # Blog info
-blog_name: Forsigner
-slogan: Find the bug of the world
-url: http://www.forsigner.com
+blog_name: 每天一说
+slogan: 心有猛虎，细嗅蔷薇
+url: http://www.everydaysay.com
 
 # Set avatar (Absolute url and relative url)
-avatar: /images/avatar.jpg
+avatar: https://liusenblog.oss-cn-hongkong.aliyuncs.com/Tiger%2BRide_Mark%2BConlan.jpg
 
 # Set favicon
-favicon: /favicon.ico
+favicon: https://liusenblog.oss-cn-hongkong.aliyuncs.com/%E6%A0%91%20%281%29.png
 
 # For seo
-keywords: forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: everydaysay,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
 
 home_nav:
-  - name: Blog
+  - name: 博客
     url: /archives
     target_blank: false #不在新页面打开
-  - name: Project
+  - name: 项目
     url: /project/
     target_blank: true #在新页面打开
   - name: Github
-    url: https://github.com/forsigner
+    url: https://github.com/radish-angel
     target_blank: true
-  - name: Twitter
-    url: https://twitter.com/forsigner
+  - name: 简书
+    url: https://www.jianshu.com/users/08fd94988814/timeline
     target_blank: true
 
 # config page nav
@@ -67,7 +67,7 @@ search_slogan:
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+  text: 交换友链可以邮件 1204920733@qq.com
 
 
 # set backtop show or hide
@@ -81,7 +81,7 @@ backtop:
   about: false
 
 donation:
-  show: true
+  show: false
   btn_text: 支持一下
   tip: 扫一扫，支持forsigner
   items:
@@ -183,26 +183,27 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "Scut，1991，Spring."
+    - "1993，Spring."
+    - "一个码农，半个诗人"
     - "喜欢设计，擅长编程，喜欢睡懒觉."
-    - "前端开发工程师，常用 HTML / CSS / JavaScript."
+    - "前端开发工程师，常用 HTML / CSS / JavaScript.熟悉python，精通react"
   - type: Github
     icon: icon-github
     text_key: Github
-    text_value: "@forsigner"
-    text_value_url: https://github.com/forsigner
+    text_value: "@luobo"
+    text_value_url: https://github.com/radish-angel
   - type: weibo
     icon: icon-weibo
     text_key: 微博
-    text_value: "@forsigner"
-    text_value_url: http://weibo.com/u/1847075964
+    text_value: "@luobo"
+    text_value_url: https://www.weibo.com/p/1005055272047060/home
   - type: mail
     icon: icon-mail
     text_key: Gmail
-    text_value: "forsigner@gmail.com"
+    text_value: "luobo139319@gmail.com"
   - type: location
     icon: icon-location
-    text_value: 珠海
+    text_value: 杭州
 
 link:
   - name: 织网
@@ -232,55 +233,12 @@ link:
 
 
 project:
-  - type: personal
-    name: fexo
-    url: https://github.com/forsigner/fexo
-    intro: A minimalist design theme for hexo
-  # - type: company
-  #   name: Fexo
-  #   url: https://github.com/forsigner/fexo
-  #   intro: A minimalist design theme for hexo
-  - type: personal
-    name: beside
-    url: https://github.com/forsigner/beside
-    intro: I need you beside me
-  - type: personal
-    name: web-fontmin
-    url: https://github.com/forsigner/web-fontmin
-    intro: 字体子集化，在线提取你需要的字体
-  - type: personal
-    name: magic-check
-    url: https://github.com/forsigner/magic-check
-    intro: Beautify Radio and Checkbox with pure CSS
-  - type: personal
-    name: nice-bar
-    url: https://github.com/forsigner/nice-bar
-    intro: A nice and lightweight scrollbar
-  - type: personal
-    name: angular-nice-bar
-    url: https://github.com/forsigner/angular-nice-bar
-    intro: A nice and lightweight scrollbar in Angular
-  - type: personal
-    name: fo-popover
-    url: https://github.com/forsigner/fo-popover
-    intro: A nice popover for Angular
-  - type: personal
-    name: fo-tooltip
-    url: A nice tooltip for Angular
-    intro: https://github.com/forsigner/fo-tooltip
-  - type: personal
-    name: fo-modal
-    url: https://github.com/forsigner/fo-modal
-    intro: A nice modal for Angular
-  - type: personal
-    name: mocer
-    url: https://github.com/forsigner/mocer
-    intro: Setup a mock server easily
-  - type: personal
-    name: node-pngdefry
-    url: https://github.com/forsigner/node-pngdefry
-    intro: Repairing iPhone fried PNGs using Node.js
-  - type: personal
-    name: ng-simditor
-    url: https://github.com/forsigner/ng-simditor
-    intro: Angular directive for simditor
+  - type: company
+    name: koubei
+    url: https://koubei.com
+    intro: 口碑主页
+  - type: company
+    name: koubei
+    url: https://m.koubei.com/app
+    intro: A download page for koubei
+  
